@@ -10,7 +10,7 @@ const Cardshoe = ({ imageURL, changeBigShoeImage, bigShoeImg }) => {
     <div
       className={`border-2 rounded-xl ${
         bigShoeImg === imageURL.bigShoe
-          ? "border-coral-red"
+          ? "border-orange-600"
           : "border-transparent"
       } cursor-pointer max-sm:flex-1`}
       onClick={handleclick}
