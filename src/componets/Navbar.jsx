@@ -5,7 +5,7 @@ import { hamburger } from "../assets/icons";
 const Navbar = () => {
   return (
     <header className="padding-x py-8 z-10 w-full">
-      <nav className="flex justify-between items-center">
+      <nav className="flex justify-between items-center ">
         <a href="/">
           <img src={headerLogo} width={129} height={29} alt="logo" />
         </a>
